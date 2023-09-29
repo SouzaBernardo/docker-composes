@@ -2,7 +2,7 @@
 
 # KAFKA docker-compose
 
-## How run:
+## How to run:
 - Install [docker](https://docs.docker.com/engine/install/)
 - Install [docker-compose](https://docs.docker.com/compose/install/)
 - Go to `/docker-composes/kafka` in your current path
