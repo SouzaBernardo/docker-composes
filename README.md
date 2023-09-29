@@ -1,5 +1,7 @@
-# docker-composes
-![docker-image](https://www.mundodocker.com.br/wp-content/uploads/2015/06/docker_facebook_share.png)
+
+<img src="https://www.mundodocker.com.br/wp-content/uploads/2015/06/docker_facebook_share.png" width="250" align="right"/>
+
+# Docker Composes
 
 Here are some Docker Composes that you can use to run your containers for testing, studying, or whatever you prefer.
 
