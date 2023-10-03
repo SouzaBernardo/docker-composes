@@ -9,4 +9,5 @@
   - Example: `cd ~/documents/docker-composes/mongo`
 - In this folder you can run `docker-compose up`
   - So you can connect the mongo on your database or on your application :)
+  - By default the usarname and password are `mongo`, but you can configurate this changing the properties `MONGO_INITDB_ROOT_USERNAME` and `MONGO_INITDB_ROOT_PASSWORD`.
 - To stop use `docker-compose stop` or if you want stop and discard container use `docker-compose down`
