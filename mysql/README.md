@@ -8,4 +8,5 @@
 - Go to `/docker-composes/mysql` in your current path
   - Example: `cd ~/documents/docker-composes/mysql`
 - In this folder you can run `docker-compose up`
+  - By default the password is root, but you can change MYSQL_ROOT_PASSWORD to alter password
 - To stop use `docker-compose stop` or if you want stop and discard container use `docker-compose down`
