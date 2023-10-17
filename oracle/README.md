@@ -1,6 +1,6 @@
 <img src="https://mma.prnewswire.com/media/467598/Oracle_Logo.jpg?p=facebook" width="250" align="right"/>
 
-# MySQL docker-compose
+# Oracle docker-compose
 
 ## How to run:
 - Install [docker](https://docs.docker.com/engine/install/)
