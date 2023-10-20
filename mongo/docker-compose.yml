@@ -9,5 +9,5 @@ services:
       MONGO_INITDB_ROOT_PASSWORD: mongo
     ports:
       - "27017:27017"
-    volumes:
-      - "${MONGO_VOLUME}:/data/db"
+    # volumes:
+    #   - "${MONGO_VOLUME}:/data/db"
