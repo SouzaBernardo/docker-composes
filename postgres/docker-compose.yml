@@ -1,8 +1,7 @@
-version: '3.5'
+version: '3'
 
 services:
-
-  postgres:
+  postgres-contaner:
     image: postgres
     container_name: postgres_container
     restart: always
@@ -12,5 +11,21 @@ services:
       PGDATA: /data/postgres
     ports:
       - "5432:5432"
-    volumes:
-      - "${POSTGRES_VOLUME}:/data/postgres"
+    networks:
+      - postgres-compose-network
+
+  pgadmin-compose:
+    image: dpage/pgadmin4
+    environment:
+      PGADMIN_DEFAULT_EMAIL: "postgres@email.com"
+      PGADMIN_DEFAULT_PASSWORD: "postgres"
+    ports:
+      - "16543:80"
+    depends_on:
+      - postgres-contaner
+    networks:
+      - postgres-compose-network
+
+networks: 
+  postgres-compose-network:
+    driver: bridge
