@@ -11,3 +11,4 @@
   - By default the password and the user are postgres, but you can change POSTGRES_USER and POSTGRES_PASSWORD
   - Default port is `5432`
 - To stop use `docker-compose stop` or if you want stop and discard container use `docker-compose down`
+- You can access `localhost:16543` to access gpAdmin and enter with `postgres@email.com` user and `postgres` password.
