@@ -28,4 +28,5 @@ What Docker Composes do we have available here?
 - [MySQL](https://github.com/BEp0/docker-composes/tree/main/mysql)
 - [Oracle](https://github.com/BEp0/docker-composes/tree/main/oracle)
 - [PostgreSQL](https://github.com/BEp0/docker-composes/tree/main/postgres)
-- [RabbitMQ](https://github.com/BEp0/docker-composes/tree/main/kafka)
+- [RabbitMQ](https://github.com/BEp0/docker-composes/tree/main/rabbitmq)
+- [Redis](https://github.com/BEp0/docker-composes/tree/main/redis)
